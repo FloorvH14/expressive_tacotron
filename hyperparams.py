@@ -12,7 +12,7 @@ class Hyperparams:
     vocab = u'''␀␃ !',-.:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz''' # ␀: Padding ␃: End of Sentence
 
     # data
-    data = "/content/gdrive/Shareddrives/FUNTIMES/MLGroupProject-30-jan/LJSpeech-1.1"
+    data = "/content/expressive_tacotron/LJSpeech-1.1"
     test_data = 'test_sents.txt'
     ref_audio = 'ref1/*.wav'
     Tx = 188 # Fixed length of text length.
